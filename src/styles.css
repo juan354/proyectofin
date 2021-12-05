@@ -1,0 +1,76 @@
+
+body{
+    background-color: blue;
+    
+  }
+  
+  .main{
+      position: relative;
+      display: inline-block;
+      text-align: center;
+      display: flex;
+    justify-content: center;
+    font-family: 'Oswald', sans-serif;
+    font-size: 30px;
+  
+  }
+  
+  .busqueda{
+    border-radius: 8px;
+    background-color:transparent;
+    padding-top: 5px;
+    
+  }
+  .texto-encima{
+      position: absolute;
+      top: 10px;
+      left: 10px;
+  }
+  .centrado{
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      color: white;
+  }
+  
+  h4{
+    text-align:left;
+    float:left;
+    margin-left: 15px;
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+  
+  }
+  h5{
+    text-align:right;
+    float:right;
+    margin-right: 30px;
+    font-family: 'Oswald', sans-serif;
+    font-size: 16px;
+  }
+  h6{
+    text-align:right;
+    margin-right: 30px;
+    font-family: 'Oswald', sans-serif;
+    font-size: 10px;
+    color: rgb(53, 51, 51);
+  }
+  
+  .days{
+    
+      display: inline-block;
+      border-color: black;
+      height: auto;
+      width: 300px;
+   
+    background-color: white;
+    margin-left: 525px;
+    margin-right: 525px;
+  }
+  
+  hr{
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+  
