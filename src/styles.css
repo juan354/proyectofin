@@ -36,16 +36,18 @@ body{
   
   h4{
     text-align:left;
+    padding-left: 15px;
     float:left;
+    padding-top: 20px;
     margin-left: 15px;
     font-family: 'Oswald', sans-serif;
     font-size: 15px;
   
   }
   h5{
-    text-align:right;
-    float:right;
-    margin-right: 30px;
+    text-align:center;
+    padding-top: 28px;
+    margin-left: 15px;
     font-family: 'Oswald', sans-serif;
     font-size: 16px;
   }
@@ -72,5 +74,6 @@ body{
   hr{
     margin-left: 15px;
     margin-right: 15px;
+    margin-bottom: 20px;
   }
   

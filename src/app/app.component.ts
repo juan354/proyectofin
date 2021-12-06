@@ -38,7 +38,7 @@ export class AppComponent implements OnInit {
       cityName.value = '';
       countryCode.value = '';
     } else {
-      alert('Please. Insert some values');
+      alert('Por favor inserte los valores');
     }
     cityName.focus();
     return false;
