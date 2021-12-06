@@ -326,9 +326,44 @@
 </div>
 
 <div class="content" role="main">
-<app-main></app-main>
-<app-days></app-days>
+  <div *ngIf="weather" class="main">
+            
+    <div class="texto-encima"></div>
+    <img src="assets/img/fondo3.png" width="300px" height="450px" alt="InternetCtrl"/>
+    <div class="centrado">
 
+          <form (submit)="submitLocation(cityName, cityCode)">
+          <input type="text" placeholder="Nombre del Pais" class="form-control" autofocus #cityName>
+          <br>
+          <input  type="text" placeholder ="Codigo del Pais" class="form-control" #cityCode>
+          <button class="btn btn-primary btn-block mt-2">
+            Get Weather
+          </button>
+        </form>
+       <h1> {{weather.main.temp}} C° </h1>
+        <h2> Humedad:{{weather.main.humidity}}</h2>
+     </div>
+  </div>
+  <div  *ngIf="weather" class="days">
+           
+    <div>
+  <h4>Temperatura Maxima </h4>  
+  <h5>Max: {{weather.main.temp_max}}</h5> 
+  <br> 
+  
+</div>
+<br>
+<hr>
+<div>
+  <h4>Temperatura Minima</h4>  
+  <h5>Min: {{weather.main.temp_min}}</h5> <br> 
+  
+</div>
+   
+
+   
+    </div>
+  
 
 </div>
 
